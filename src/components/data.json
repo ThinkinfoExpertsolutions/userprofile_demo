@@ -1,0 +1,484 @@
+{
+    "results": [
+    {
+        "category": "harmless",
+        "engine_name": "Artists Against 419",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Acronis",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Abusix",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "ADMINUSLabs",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Lionic",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Criminal IP",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "AILabs (MONITORAPP)",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "AlienVault",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "alphaMountain.ai",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "AlphaSOC",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Antiy-AVL",
+        "result": "clean"
+    },
+    {
+        "category": "suspicious",
+        "engine_name": "ArcSight Threat Intelligence",
+        "result": "suspicious"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "AutoShun",
+        "result": "unrated"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "Axur",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "benkow.cc",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "Bfore.Ai PreCrime",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "BitDefender",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "Bkav",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "BlockList",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Blueliv",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Certego",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Chong Lua Dao",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "CINS Army",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Snort IP sample list",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "Cluster25",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "CMC Threat Intelligence",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Xcitium Verdict Cloud",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "CRDF",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "CSIS Security Group",
+        "result": "unrated"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "Cyan",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Cyble",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "CyRadar",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "desenmascara.me",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "DNS8",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Dr.Web",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Emsisoft",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "Ermes",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "ESET",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "ESTsecurity",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "EmergingThreats",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Feodo Tracker",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Fortinet",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "G-Data",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Google Safebrowsing",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "GCP Abuse Intelligence",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "GreenSnow",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "Gridinsoft",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Heimdal Security",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "Hunt.io Intelligence",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "IPsum",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Juniper Networks",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Kaspersky",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "Lumu",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Malwared",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "MalwareURL",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "MalwarePatrol",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "malwares.com URL checker",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "Netcraft",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "OpenPhish",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "0xSI_f33d",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Phishing Database",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "PhishFort",
+        "result": "unrated"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "PhishLabs",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Phishtank",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "PREBYTES",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "PrecisionSec",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Quick Heal",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Quttera",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Rising",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "SafeToOpen",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Sangfor",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "Sansec eComscan",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Scantitan",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "SCUMWARE.org",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Seclookup",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "SOCRadar",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Sophos",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Spam404",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "StopForumSpam",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Sucuri SiteCheck",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "securolytics",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Threatsourcing",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "ThreatHive",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Trustwave",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "Underworld",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "URLhaus",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "URLQuery",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Viettel Threat Intelligence",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "VIPRE",
+        "result": "unrated"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "ViriBack",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "VX Vault",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Webroot",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Forcepoint ThreatSeeker",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "Yandex Safebrowsing",
+        "result": "clean"
+    },
+    {
+        "category": "harmless",
+        "engine_name": "ZeroCERT",
+        "result": "clean"
+    },
+    {
+        "category": "undetected",
+        "engine_name": "ZeroFox",
+        "result": "clean"
+    }
+]
+}

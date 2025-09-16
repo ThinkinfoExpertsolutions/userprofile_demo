@@ -1,0 +1,426 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: hsl(0, 0%, 100%);
+    --foreground: hsl(240, 10%, 3.9%);
+
+    --card: hsl(0, 0%, 100%);
+    --card-foreground: hsl(240, 10%, 3.9%);
+
+    --popover: hsl(0, 0%, 100%);
+    --popover-foreground: hsl(240, 10%, 3.9%);
+
+    --primary: hsl(240, 5.9%, 10%);
+    --primary-foreground: hsl(0, 0%, 98%);
+
+    --secondary: hsl(240, 4.8%, 95.9%);
+    --secondary-foreground: hsl(240, 5.9%, 10%);
+
+    --muted: hsl(240, 4.8%, 95.9%);
+    --muted-foreground: hsl(240, 3.8%, 46.1%);
+
+    --accent: hsl(240, 4.8%, 95.9%);
+    --accent-foreground: hsl(240, 5.9%, 10%);
+
+    --destructive: hsl(0, 84.2%, 60.2%);
+    --destructive-foreground: hsl(0, 0%, 98%);
+
+    --border: hsl(240, 5.9%, 90%);
+    --input: hsl(240, 5.9%, 90%);
+    --ring: hsl(240, 10%, 3.9%);
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: hsl(240, 10%, 3.9%);
+    --foreground: hsl(0, 0%, 98%);
+
+    --card: hsl(240, 10%, 3.9%);
+    --card-foreground: hsl(0, 0%, 98%);
+
+    --popover: hsl(240, 10%, 3.9%);
+    --popover-foreground: hsl(0, 0%, 98%);
+
+    --primary: hsl(0, 0%, 98%);
+    --primary-foreground: hsl(240, 5.9%, 10%);
+
+    --secondary: hsl(240, 3.7%, 15.9%);
+    --secondary-foreground: hsl(0, 0%, 98%);
+
+    --muted: hsl(240, 3.7%, 15.9%);
+    --muted-foreground: hsl(240, 5%, 64.9%);
+
+    --accent: hsl(240, 3.7%, 15.9%);
+    --accent-foreground: hsl(0, 0%, 98%);
+
+    --destructive: hsl(0, 62.8%, 30.6%);
+    --destructive-foreground: hsl(0, 0%, 98%);
+
+    --border: hsl(240, 3.7%, 15.9%);
+    --input: hsl(240, 3.7%, 15.9%);
+    --ring: hsl(240, 4.9%, 83.9%);
+  }
+}
+
+@layer components {
+  * {
+    @apply border-border !scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button {
+    @apply active:outline-none;
+  }
+}
+
+@layer utilities {
+  .heading {
+    @apply font-bold text-4xl md:text-5xl text-center;
+  }
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: hsl(0, 0%, 100%);
+    --foreground: hsl(240, 10%, 3.9%);
+
+    --card: hsl(0, 0%, 100%);
+    --card-foreground: hsl(240, 10%, 3.9%);
+
+    --popover: hsl(0, 0%, 100%);
+    --popover-foreground: hsl(240, 10%, 3.9%);
+
+    --primary: hsl(240, 5.9%, 10%);
+    --primary-foreground: hsl(0, 0%, 98%);
+
+    --secondary: hsl(240, 4.8%, 95.9%);
+    --secondary-foreground: hsl(240, 5.9%, 10%);
+
+    --muted: hsl(240, 4.8%, 95.9%);
+    --muted-foreground: hsl(240, 3.8%, 46.1%);
+
+    --accent: hsl(240, 4.8%, 95.9%);
+    --accent-foreground: hsl(240, 5.9%, 10%);
+
+    --destructive: hsl(0, 84.2%, 60.2%);
+    --destructive-foreground: hsl(0, 0%, 98%);
+
+    --border: hsl(240, 5.9%, 90%);
+    --input: hsl(240, 5.9%, 90%);
+    --ring: hsl(240, 10%, 3.9%);
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: hsl(240, 10%, 3.9%);
+    --foreground: hsl(0, 0%, 98%);
+
+    --card: hsl(240, 10%, 3.9%);
+    --card-foreground: hsl(0, 0%, 98%);
+
+    --popover: hsl(240, 10%, 3.9%);
+    --popover-foreground: hsl(0, 0%, 98%);
+
+    --primary: hsl(0, 0%, 98%);
+    --primary-foreground: hsl(240, 5.9%, 10%);
+
+    --secondary: hsl(240, 3.7%, 15.9%);
+    --secondary-foreground: hsl(0, 0%, 98%);
+
+    --muted: hsl(240, 3.7%, 15.9%);
+    --muted-foreground: hsl(240, 5%, 64.9%);
+
+    --accent: hsl(240, 3.7%, 15.9%);
+    --accent-foreground: hsl(0, 0%, 98%);
+
+    --destructive: hsl(0, 62.8%, 30.6%);
+    --destructive-foreground: hsl(0, 0%, 98%);
+
+    --border: hsl(240, 3.7%, 15.9%);
+    --input: hsl(240, 3.7%, 15.9%);
+    --ring: hsl(240, 4.9%, 83.9%);
+  }
+}
+
+@layer components {
+  * {
+    @apply border-border !scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button {
+    @apply active:outline-none;
+  }
+}
+
+@layer utilities {
+  .heading {
+    @apply font-bold text-4xl md:text-5xl text-center;
+  }
+
+  @screen sm {
+    .text-sm {
+      @apply text-xs;
+    }
+    .text-lg {
+      @apply text-base;
+    }
+    .text-xl {
+      @apply text-lg;
+    }
+    .text-2xl {
+      @apply text-xl;
+    }
+    .text-3xl {
+      @apply text-2xl;
+    }
+    .text-4xl {
+      @apply text-3xl;
+    }
+  }
+
+  @screen md {
+    .text-sm {
+      @apply text-sm;
+    }
+    .text-lg {
+      @apply text-base;
+    }
+    .text-xl {
+      @apply text-lg;
+    }
+    .text-2xl {
+      @apply text-xl;
+    }
+    .text-3xl {
+      @apply text-2xl;
+    }
+    .text-4xl {
+      @apply text-3xl;
+    }
+  }
+
+  .responsive-container {
+    @apply px-4 sm:px-6 md:px-8;
+  }
+
+  .responsive-table {
+    @apply table-auto w-full;
+  }
+
+  .responsive-input {
+    @apply w-full p-2 border border-gray-300 rounded;
+  }
+
+  .responsive-button {
+    @apply py-2 px-4 text-sm sm:text-base;
+  }
+
+  .responsive-margin {
+    @apply mb-4 sm:mb-6 md:mb-8;
+  }
+
+  .responsive-padding {
+    @apply p-4 sm:p-6 md:p-8;
+  }
+
+  .transform-translate {
+    @apply transform translate-x-0 translate-y-0 sm:translate-x-1 sm:translate-y-1 md:translate-x-2 md:translate-y-2;
+  }
+} */
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: hsl(0, 0%, 100%);
+    --foreground: hsl(240, 10%, 3.9%);
+
+    --card: hsl(0, 0%, 100%);
+    --card-foreground: hsl(240, 10%, 3.9%);
+
+    --popover: hsl(0, 0%, 100%);
+    --popover-foreground: hsl(240, 10%, 3.9%);
+
+    --primary: hsl(240, 5.9%, 10%);
+    --primary-foreground: hsl(0, 0%, 98%);
+
+    --secondary: hsl(240, 4.8%, 95.9%);
+    --secondary-foreground: hsl(240, 5.9%, 10%);
+
+    --muted: hsl(240, 4.8%, 95.9%);
+    --muted-foreground: hsl(240, 3.8%, 46.1%);
+
+    --accent: hsl(240, 4.8%, 95.9%);
+    --accent-foreground: hsl(240, 5.9%, 10%);
+
+    --destructive: hsl(0, 84.2%, 60.2%);
+    --destructive-foreground: hsl(0, 0%, 98%);
+
+    --border: hsl(240, 5.9%, 90%);
+    --input: hsl(240, 5.9%, 90%);
+    --ring: hsl(240, 10%, 3.9%);
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: hsl(240, 10%, 3.9%);
+    --foreground: hsl(0, 0%, 98%);
+
+    --card: hsl(240, 10%, 3.9%);
+    --card-foreground: hsl(0, 0%, 98%);
+
+    --popover: hsl(240, 10%, 3.9%);
+    --popover-foreground: hsl(0, 0%, 98%);
+
+    --primary: hsl(0, 0%, 98%);
+    --primary-foreground: hsl(240, 5.9%, 10%);
+
+    --secondary: hsl(240, 3.7%, 15.9%);
+    --secondary-foreground: hsl(0, 0%, 98%);
+
+    --muted: hsl(240, 3.7%, 15.9%);
+    --muted-foreground: hsl(240, 5%, 64.9%);
+
+    --accent: hsl(240, 3.7%, 15.9%);
+    --accent-foreground: hsl(0, 0%, 98%);
+
+    --destructive: hsl(0, 62.8%, 30.6%);
+    --destructive-foreground: hsl(0, 0%, 98%);
+
+    --border: hsl(240, 3.7%, 15.9%);
+    --input: hsl(240, 3.7%, 15.9%);
+    --ring: hsl(240, 4.9%, 83.9%);
+  }
+}
+
+@layer components {
+  * {
+    @apply border-border !scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button {
+    @apply active:outline-none;
+  }
+}
+
+@layer utilities {
+  .heading {
+    @apply font-bold text-4xl text-center;
+  }
+
+  .text-sm {
+    @apply text-xs;
+  }
+
+  .text-lg {
+    @apply text-base;
+  }
+
+  .text-xl {
+    @apply text-lg;
+  }
+
+  .text-2xl {
+    @apply text-xl;
+  }
+
+  .text-3xl {
+    @apply text-2xl;
+  }
+
+  .text-4xl {
+    @apply text-3xl;
+  }
+
+  @screen sm {
+    .text-sm {
+      @apply text-xs;
+    }
+    .text-lg {
+      @apply text-base;
+    }
+    .text-xl {
+      @apply text-lg;
+    }
+    .text-2xl {
+      @apply text-xl;
+    }
+    .text-3xl {
+      @apply text-2xl;
+    }
+    .text-4xl {
+      @apply text-3xl;
+    }
+  }
+
+  @screen md {
+    .text-sm {
+      @apply text-sm;
+    }
+    .text-lg {
+      @apply text-base;
+    }
+    .text-xl {
+      @apply text-lg;
+    }
+    .text-2xl {
+      @apply text-xl;
+    }
+    .text-3xl {
+      @apply text-2xl;
+    }
+    .text-4xl {
+      @apply text-3xl;
+    }
+  }
+
+  .responsive-container {
+    @apply px-4 sm:px-6 md:px-8;
+  }
+
+  .responsive-table {
+    @apply table-auto w-full;
+  }
+
+  .responsive-input {
+    @apply w-full p-2 border border-gray-300 rounded;
+  }
+
+  .responsive-button {
+    @apply py-2 px-4 text-sm sm:text-base;
+  }
+
+  .responsive-margin {
+    @apply mb-4 sm:mb-6 md:mb-8;
+  }
+
+  .responsive-padding {
+    @apply p-4 sm:p-6 md:p-8;
+  }
+
+  .transform-translate {
+    @apply transform translate-x-0 translate-y-0 sm:translate-x-1 sm:translate-y-1 md:translate-x-2 md:translate-y-2;
+  }
+}
+ */
+
+
+ 
